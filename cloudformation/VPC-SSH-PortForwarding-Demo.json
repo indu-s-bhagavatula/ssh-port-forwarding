@@ -1,0 +1,752 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9": {
+                "size": {
+                    "width": 1360,
+                    "height": 480
+                },
+                "position": {
+                    "x": 640,
+                    "y": 140
+                },
+                "z": 1,
+                "embeds": [
+                    "3e63cdf1-095a-4ab0-bee5-9bacb1e5832e",
+                    "0a19d285-d2b9-4a62-a21f-5f927cfb0760",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73",
+                    "63dfd7f4-2b74-4f68-9bfe-f10c19fa88b6",
+                    "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
+                ]
+            },
+            "c3fa62ad-47cc-41ff-88f3-9428f301e3c7": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1360,
+                    "y": 50
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "6aae9810-c9cb-4e50-ab1c-70aa1d83ef1d": {
+                "source": {
+                    "id": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                },
+                "target": {
+                    "id": "c3fa62ad-47cc-41ff-88f3-9428f301e3c7"
+                },
+                "z": 1
+            },
+            "7a7c8e4d-1af6-472c-9cd1-37488fdb9077": {
+                "size": {
+                    "width": 90,
+                    "height": 90
+                },
+                "position": {
+                    "x": 970,
+                    "y": 200
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73": {
+                "size": {
+                    "width": 90,
+                    "height": 90
+                },
+                "position": {
+                    "x": 1580,
+                    "y": 200
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "63dfd7f4-2b74-4f68-9bfe-f10c19fa88b6": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1810,
+                    "y": 210
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "isassociatedwith": [
+                    "c3fa62ad-47cc-41ff-88f3-9428f301e3c7"
+                ],
+                "iscontainedinside": [
+                    "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73"
+                ]
+            },
+            "21a33a9b-02f4-48ff-b854-fbb9d73bf090": {
+                "size": {
+                    "width": 200,
+                    "height": 120
+                },
+                "position": {
+                    "x": 890,
+                    "y": 370
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [
+                    "4ab95f14-3b98-43f0-9cf3-3ab19504c64c"
+                ],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "8d742b44-695f-4a9f-8a40-8a6553834faf": {
+                "size": {
+                    "width": 240,
+                    "height": 130
+                },
+                "position": {
+                    "x": 1560,
+                    "y": 370
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [
+                    "9df13c01-4e42-47ed-b53c-123a21978af3"
+                ],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "a0d57edb-a905-407a-87b2-38235a13b8a8": {
+                "source": {
+                    "id": "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73"
+                },
+                "target": {
+                    "id": "8d742b44-695f-4a9f-8a40-8a6553834faf"
+                },
+                "z": 2
+            },
+            "96f646ff-6ba2-45ad-86ee-6d56554dea0f": {
+                "source": {
+                    "id": "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
+                },
+                "target": {
+                    "id": "21a33a9b-02f4-48ff-b854-fbb9d73bf090"
+                },
+                "z": 2
+            },
+            "9df13c01-4e42-47ed-b53c-123a21978af3": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1650,
+                    "y": 400
+                },
+                "z": 3,
+                "parent": "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                "embeds": [],
+                "iscontainedinside": [
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf"
+                ]
+            },
+            "3e63cdf1-095a-4ab0-bee5-9bacb1e5832e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1850,
+                    "y": 400
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "0a19d285-d2b9-4a62-a21f-5f927cfb0760": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1160,
+                    "y": 400
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                ]
+            },
+            "4ab95f14-3b98-43f0-9cf3-3ab19504c64c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 950,
+                    "y": 400
+                },
+                "z": 3,
+                "parent": "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                "embeds": [],
+                "iscontainedinside": [
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090"
+                ]
+            }
+        }
+    },
+    "Resources": {
+        "VpcSshPortForwarding": {
+            "Type": "AWS::EC2::VPC",
+            "Properties": {
+                "CidrBlock": "200.201.0.0/16",
+                "EnableDnsHostnames": "true",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-demo-vpc"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                }
+            }
+        },
+        "VPCSshPortForwardingIGW": {
+            "Type": "AWS::EC2::InternetGateway",
+            "Properties": {
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-vpc-igw"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "c3fa62ad-47cc-41ff-88f3-9428f301e3c7"
+                }
+            }
+        },
+        "EC2VPCGBMNO": {
+            "Type": "AWS::EC2::VPCGatewayAttachment",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "InternetGatewayId": {
+                    "Ref": "VPCSshPortForwardingIGW"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6aae9810-c9cb-4e50-ab1c-70aa1d83ef1d"
+                }
+            }
+        },
+        "ServerSubnetRtTab": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-server-subnet-rt-tab"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
+                }
+            }
+        },
+        "BastionSubnetRtTable": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-client-subnet-rt-tab"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73"
+                }
+            }
+        },
+        "ExternalRouteViaIGW": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "GatewayId": {
+                    "Ref": "VPCSshPortForwardingIGW"
+                },
+                "RouteTableId": {
+                    "Ref": "BastionSubnetRtTable"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "63dfd7f4-2b74-4f68-9bfe-f10c19fa88b6"
+                }
+            }
+        },
+        "ServerSubnet": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "CidrBlock": "200.201.0.0/24",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-server-subnet"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "21a33a9b-02f4-48ff-b854-fbb9d73bf090"
+                }
+            }
+        },
+        "BastionSubnet": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "CidrBlock": "200.201.1.0/24",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-client-subnet"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8d742b44-695f-4a9f-8a40-8a6553834faf"
+                }
+            }
+        },
+        "EC2SRTA39S12": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "BastionSubnetRtTable"
+                },
+                "SubnetId": {
+                    "Ref": "BastionSubnet"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a0d57edb-a905-407a-87b2-38235a13b8a8"
+                }
+            }
+        },
+        "EC2SRTA4I275": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "SubnetId": {
+                    "Ref": "ServerSubnet"
+                },
+                "RouteTableId": {
+                    "Ref": "ServerSubnetRtTab"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "96f646ff-6ba2-45ad-86ee-6d56554dea0f"
+                }
+            }
+        },
+        "ExternalInterfacingInstance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "NetworkInterfaces": [
+                    {
+                        "AssociatePublicIpAddress": "true",
+                        "DeviceIndex": "0",
+                        "GroupSet": [
+                            {
+                                "Ref": "ExternalSecurityGroup"
+                            }
+                        ],
+                        "SubnetId": {
+                            "Ref": "BastionSubnet"
+                        },
+                        "PrivateIpAddress": "200.201.1.10"
+                    }
+                ],
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "VolumeType": "gp2",
+                            "DeleteOnTermination": "true",
+                            "VolumeSize": "8"
+                        }
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-bastion-server"
+                    }
+                ],
+                "ImageId": {
+                    "Fn::FindInMap": [
+                        "RegionMap",
+                        {
+                            "Ref": "AWS::Region"
+                        },
+                        "64"
+                    ]
+                },
+                "InstanceType": "t2.micro",
+                "KeyName": "key-iad1-us-east-1"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9df13c01-4e42-47ed-b53c-123a21978af3"
+                }
+            }
+        },
+        "ExternalSecurityGroup": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "22",
+                        "ToPort": "22",
+                        "CidrIp": "0.0.0.0/0"
+                    }
+                ],
+                "GroupDescription": "ssh-port-forwarding-external-access-sg",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-external-access-sg"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3e63cdf1-095a-4ab0-bee5-9bacb1e5832e"
+                }
+            }
+        },
+        "InternalWebServerSG": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "VpcSshPortForwarding"
+                },
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "80",
+                        "ToPort": "80",
+                        "SourceSecurityGroupId": {
+                            "Ref": "ExternalSecurityGroup"
+                        }
+                    },
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "22",
+                        "ToPort": "22",
+                        "SourceSecurityGroupId": {
+                            "Ref": "ExternalSecurityGroup"
+                        }
+                    }                    
+                ],
+                "GroupDescription": "ssh-port-forwarding-web-server-access-sg",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-web-server-access-sg"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "0a19d285-d2b9-4a62-a21f-5f927cfb0760"
+                }
+            }
+        },
+        "InternalWebServer": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "NetworkInterfaces": [
+                    {
+                        "SubnetId": {
+                            "Ref": "ServerSubnet"
+                        },
+                        "DeviceIndex": "0",
+                        "GroupSet": [
+                            {
+                                "Ref": "InternalWebServerSG"
+                            }
+                        ],
+                        "PrivateIpAddress": "200.201.0.10"
+                    }
+                ],
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "VolumeType": "gp2",
+                            "DeleteOnTermination": "true",
+                            "VolumeSize": "8"
+                        }
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-web-server"
+                    }
+                ],
+                "ImageId": {
+                    "Fn::FindInMap": [
+                        "RegionMap",
+                        {
+                            "Ref": "AWS::Region"
+                        },
+                        "64"
+                    ]
+                },
+                "InstanceType": "t2.micro",
+                "KeyName": "key-iad1-us-east-1"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4ab95f14-3b98-43f0-9cf3-3ab19504c64c"
+                }
+            }
+        }
+    },
+    "Mappings": {
+        "RegionMap": {
+            "us-east-1": {
+                "32": "ami-6411e20d",
+                "64": "ami-5583d42f"
+            },
+            "us-west-1": {
+                "32": "ami-c9c7978c",
+                "64": "ami-cfc7978a"
+            },
+            "eu-west-1": {
+                "32": "ami-37c2f643",
+                "64": "ami-31c2f645"
+            },
+            "ap-southeast-1": {
+                "32": "ami-66f28c34",
+                "64": "ami-60f28c32"
+            },
+            "ap-northeast-1": {
+                "32": "ami-9c03a89d",
+                "64": "ami-a003a8a1"
+            }
+        }
+    }
+}

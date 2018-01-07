@@ -1,0 +1,44 @@
+# Web server setup and web page setup instructions
+
+These steps are subset of the steps present in the link https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
+
+1. ssh into "ssh-port-forwarding-bastion-server" 
+   ssh -i <key-pair> ec2-user@<public dns name>
+
+2. Download the key-pair to the "ssh-port-forwarding-bastion-server"
+
+3. From "ssh-port-forwarding-bastion-server" ssh into "ssh-port-forwarding-web-server"
+   ssh -i <key-pair> ec2-user@ip-200-201-0-10.ec2.internal
+
+4. To ensure that all of your software packages are up to date, perform a quick software update on your instance.
+   sudo yum update -y
+
+5. Install the Apache web server
+   sudo yum install -y httpd24
+
+6. Configure the Apache web server to start
+   sudo chkconfig httpd on
+
+7. Start the Apache web server
+   sudo service httpd start
+
+8. Add your user ec2-user to apache group
+   sudo usermod -a -G apache ec2-user
+9. Log out from "ssh-port-forwarding-web-server"
+   exit
+10. From "ssh-port-forwarding-bastion-server" again ssh into "ssh-port-forwarding-web-server" 
+
+11. Change the group ownership of /var/www and its contents to the apache group
+    sudo chown -R ec2-user:apache /var i/www
+
+12. To add group write permissions and to set the group ID on future subdirectories, change the directory permissions of /var/www and its subdirectories
+    sudo chmod 2775 /var/www
+
+13. Create a new web page "index.html" in /var/www/html with the contents of index.html
+
+14. Logout from "ssh-port-forwarding-web-server"
+    exit
+
+15. Test the web page from "ssh-port-forwarding-bastion-server" using the curl command and it should return the contents of index.html page.
+    curl ip-200-201-0-10.ec2.internal
+    

@@ -95,6 +95,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -111,6 +112,7 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -217,6 +219,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -235,6 +238,7 @@
                     "9df13c01-4e42-47ed-b53c-123a21978af3"
                 ],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -318,6 +322,7 @@
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf"
                 ]
             },
@@ -334,6 +339,7 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -376,6 +382,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -392,6 +399,7 @@
                 "parent": "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                 "embeds": [],
                 "iscontainedinside": [
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
@@ -437,7 +445,11 @@
                     "y": 200
                 },
                 "z": 2,
-                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                "embeds": [],
+                "iscontainedinside": [
+                    "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
+                ]
             }
         }
     },
@@ -828,7 +840,7 @@
             "Type": "AWS::EC2::Route",
             "Properties": {
                 "DestinationCidrBlock": "0.0.0.0/0",
-                "GatewayId": {
+                "NatGatewayId": {
                     "Ref": "VPCSshPortForwardingNAT"
                 },
                 "RouteTableId": {

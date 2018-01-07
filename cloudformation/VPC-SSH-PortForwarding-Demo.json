@@ -19,7 +19,8 @@
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "16a8bb63-60a8-4acd-b53b-f15eaf2f3a73",
                     "63dfd7f4-2b74-4f68-9bfe-f10c19fa88b6",
-                    "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
+                    "7a7c8e4d-1af6-472c-9cd1-37488fdb9077",
+                    "c2e960ce-c488-40a9-b463-bbd7c3918c6d"
                 ]
             },
             "c3fa62ad-47cc-41ff-88f3-9428f301e3c7": {
@@ -91,6 +92,9 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -107,6 +111,9 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -207,6 +214,9 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -225,6 +235,9 @@
                     "9df13c01-4e42-47ed-b53c-123a21978af3"
                 ],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -302,6 +315,9 @@
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf"
                 ]
             },
@@ -318,6 +334,9 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -354,6 +373,9 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -372,8 +394,50 @@
                 "iscontainedinside": [
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090"
                 ]
+            },
+            "6b2be429-1262-4262-b00e-c330f9642e12": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 470,
+                    "y": 220
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "08ef62d7-f758-40f9-ba05-c0e5a03c8758": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1150,
+                    "y": 50
+                },
+                "z": 0,
+                "embeds": [],
+                "iscontainedinside": [
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf"
+                ]
+            },
+            "c2e960ce-c488-40a9-b463-bbd7c3918c6d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 780,
+                    "y": 200
+                },
+                "z": 2,
+                "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
             }
         }
     },
@@ -657,7 +721,7 @@
                         "SourceSecurityGroupId": {
                             "Ref": "ExternalSecurityGroup"
                         }
-                    }                    
+                    }
                 ],
                 "GroupDescription": "ssh-port-forwarding-web-server-access-sg",
                 "Tags": [
@@ -721,6 +785,59 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "4ab95f14-3b98-43f0-9cf3-3ab19504c64c"
+                }
+            }
+        },
+        "NatEIP": {
+            "Type": "AWS::EC2::EIP",
+            "Properties": {
+                "Domain": "vpc"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6b2be429-1262-4262-b00e-c330f9642e12"
+                }
+            }
+        },
+        "VPCSshPortForwardingNAT": {
+            "Type": "AWS::EC2::NatGateway",
+            "Properties": {
+                "AllocationId": {
+                    "Fn::GetAtt": [
+                        "NatEIP",
+                        "AllocationId"
+                    ]
+                },
+                "SubnetId": {
+                    "Ref": "BastionSubnet"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "ssh-port-forwarding-nat-gateway"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "08ef62d7-f758-40f9-ba05-c0e5a03c8758"
+                }
+            }
+        },
+        "ExternalRouteViaNat": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "DestinationCidrBlock": "0.0.0.0/0",
+                "GatewayId": {
+                    "Ref": "VPCSshPortForwardingNAT"
+                },
+                "RouteTableId": {
+                    "Ref": "ServerSubnetRtTab"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "c2e960ce-c488-40a9-b463-bbd7c3918c6d"
                 }
             }
         }

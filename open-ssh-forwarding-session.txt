@@ -1,0 +1,9 @@
+Initiate a SSH session to forward the packets to the internal web server. 
+
+1.  Start a ssh forwarding session on local port 20001 to forward packets to ip-200-201-0-10.ec2.internal:80 via "ssh-port-forwarding-bastion-server"
+
+    ssh -L20001:ip-200-201-0-10.ec2.internal:80 ssh-web-access@<public-dns-name of ssh-port-forwarding-bastion-server>
+Opens a session. 
+
+2.  Access the web-page deployed on the instance "ssh-port-forwarding-web-server" via "localhost:20001"
+    curl localhost:20001

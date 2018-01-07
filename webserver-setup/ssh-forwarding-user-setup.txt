@@ -22,12 +22,12 @@ Instructions available here - https://aws.amazon.com/premiumsupport/knowledge-ce
 
 7.  Upload the public key into the "ssh-port-forwarding-bastion-server" into /home/ssh-web-access/.ssh/
 
-7.  Merge the contents of the public key into "authorized_keys" file
+8.  Merge the contents of the public key into "authorized_keys" file
     cd /home/ssh-web-access/.ssh
     cat <public-key-name> >> authorized_keys
 
-8.  Change the settings of authorized_keys file to be 400 on "ssh-port-forwarding-bastion-server"
+9.  Change the settings of authorized_keys file to be 400 on "ssh-port-forwarding-bastion-server"
     chmod 400 authorized_keys
 
-9.  Try ssh-ing from your personal instance/host to "ssh-port-forwarding-bastion-server" as the user "ssh-web-access" using the key generated. Expected outcome is that login using a new session as "ssh-web-access" should be established. 
+10. Try ssh-ing from your personal instance/host to "ssh-port-forwarding-bastion-server" as the user "ssh-web-access" using the key generated. Expected outcome is that login using a new session as "ssh-web-access" should be established. 
      ssh -i <key-name> ssh-web-access@<public-dns-name>

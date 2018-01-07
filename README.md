@@ -12,3 +12,9 @@ b. "ssh-port-forwarding-server-subnet" - 200.201.0.0/24 where the WebServer will
 5. Create two security groups: 
 a. "ssh-port-forwarding-web-server-access-sg" contains rules to allow connectivity to the  Internal Web servery only from resources within the VPC. 
 b. "ssh-port-forwarding-external-access-sg" contains rules that allow connectivity from External world.
+
+# Webserver Set up Details
+To set up web server follow the instructions present in [webserver-setup/setup-ws.txt](webserver-setup/setup-ws.txt)
+
+# SSH tunnel/forwarding
+To initiate a SSH tunnel/forwarding follow the instructions in [open-ssh-forwarding-session.txt](open-ssh-forwarding-session.txt)

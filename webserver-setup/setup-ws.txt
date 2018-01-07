@@ -29,7 +29,7 @@ These steps are subset of the steps present in the link https://docs.aws.amazon.
 10. From "ssh-port-forwarding-bastion-server" again ssh into "ssh-port-forwarding-web-server" 
 
 11. Change the group ownership of /var/www and its contents to the apache group
-    sudo chown -R ec2-user:apache /var i/www
+    sudo chown -R ec2-user:apache /var/www
 
 12. To add group write permissions and to set the group ID on future subdirectories, change the directory permissions of /var/www and its subdirectories
     sudo chmod 2775 /var/www

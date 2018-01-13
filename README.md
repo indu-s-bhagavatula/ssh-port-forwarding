@@ -2,7 +2,7 @@
 Demonstrate SSH Port forwarding using AWS EC2 instances
 
 # CloudFormation Details 
-Run the CloudFormation template VPC-SSH-PortForwarding-Demo to generate the VPC setup. The template will do the following: 
+Run the CloudFormation template [VPC-SSH-PortForwarding-Demo.json](cloudformation/VPC-SSH-PortForwarding-Demo.json) to generate the VPC setup. The template will do the following: 
 1. Create new VPC with CIDR 200.201.0.0/16
 2. Creates a new InternetGateway and associate with the VPC. 
 3. Creates a new EIP, NatGateway. NatGateway is associated with the EIP created. 

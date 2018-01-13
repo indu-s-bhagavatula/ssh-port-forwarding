@@ -96,6 +96,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -112,6 +113,7 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -220,6 +222,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -238,6 +241,7 @@
                     "9df13c01-4e42-47ed-b53c-123a21978af3"
                 ],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -323,6 +327,7 @@
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf",
+                    "8d742b44-695f-4a9f-8a40-8a6553834faf",
                     "8d742b44-695f-4a9f-8a40-8a6553834faf"
                 ]
             },
@@ -339,6 +344,7 @@
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
                 "iscontainedinside": [
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
@@ -383,6 +389,7 @@
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
+                    "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                     "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9"
                 ]
             },
@@ -399,6 +406,7 @@
                 "parent": "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                 "embeds": [],
                 "iscontainedinside": [
+                    "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
                     "21a33a9b-02f4-48ff-b854-fbb9d73bf090",
@@ -447,6 +455,9 @@
                 "z": 2,
                 "parent": "f33f3fc1-fe20-4a27-b68b-f1ea991de9c9",
                 "embeds": [],
+                "isassociatedwith": [
+                    "08ef62d7-f758-40f9-ba05-c0e5a03c8758"
+                ],
                 "iscontainedinside": [
                     "7a7c8e4d-1af6-472c-9cd1-37488fdb9077"
                 ]
@@ -675,7 +686,9 @@
                     ]
                 },
                 "InstanceType": "t2.micro",
-                "KeyName": "key-iad1-us-east-1"
+                "KeyName": {
+                    "Ref": "KeyPair"
+                }
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
@@ -792,7 +805,9 @@
                     ]
                 },
                 "InstanceType": "t2.micro",
-                "KeyName": "key-iad1-us-east-1"
+                "KeyName": {
+                    "Ref": "KeyPair"
+                }
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
@@ -876,6 +891,12 @@
                 "32": "ami-9c03a89d",
                 "64": "ami-a003a8a1"
             }
+        }
+    },
+    "Parameters": {
+        "KeyPair": {
+            "Type": "String",
+            "Description": "Enter the key pair name to launch EC2 instances."
         }
     }
 }
